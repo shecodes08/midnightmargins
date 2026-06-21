@@ -1,0 +1,56 @@
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family:Georgia,serif;
+    text-align:center;
+    padding:60px;
+}
+
+h1{
+    font-size:4rem;
+}
+
+p{
+    color:#bdbdbd;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 24px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+<nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems</a>
+    <a href="about.html">About</a>
+</nav>
+
+<header>
+    <h1>Midnight Margins</h1>
+    <p>words i couldn't say out loud.</p>
+</header>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Poems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems</a>
+    <a href="about.html">About</a>
+</nav>
+
+.poem-card{
+    width:500px;
+    margin:20px auto;
+    padding:20px;
+    background:#1b1b1b;
+    border-radius:12px;
+}
